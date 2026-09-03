@@ -518,6 +518,10 @@ func (i *Info) decode(nad *netlink.AttributeDecoder) error {
 			err = i.CtrlMode.unmarshalBinary(nad.Bytes())
 		case unix.IFLA_CAN_BERR_COUNTER:
 			err = i.BusErrorCounters.unmarshalBinary(nad.Bytes())
+		case unix.IFLA_CAN_STATE:
+			i.State = nlenc.Uint32(nad.Bytes())
+		case unix.IFLA_CAN_RESTART_MS:
+			i.RestartMs = nlenc.Uint32(nad.Bytes())
 		default:
 		}
 		if err != nil {
