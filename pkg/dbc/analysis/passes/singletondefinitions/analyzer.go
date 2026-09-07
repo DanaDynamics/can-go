@@ -3,8 +3,8 @@ package singletondefinitions
 import (
 	"reflect"
 
-	"go.einride.tech/can/pkg/dbc"
-	"go.einride.tech/can/pkg/dbc/analysis"
+	"github.com/DanaDynamics/can-go/pkg/dbc"
+	"github.com/DanaDynamics/can-go/pkg/dbc/analysis"
 )
 
 func Analyzer() *analysis.Analyzer {

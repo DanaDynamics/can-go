@@ -1,4 +1,4 @@
-module go.einride.tech/can
+module github.com/DanaDynamics/can-go
 
 go 1.23.0
 

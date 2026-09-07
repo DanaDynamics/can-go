@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"strconv"
 
-	"go.einride.tech/can"
-	"go.einride.tech/can/pkg/descriptor"
-	"go.einride.tech/can/pkg/generated"
+	can "github.com/DanaDynamics/can-go"
+	"github.com/DanaDynamics/can-go/pkg/descriptor"
+	"github.com/DanaDynamics/can-go/pkg/generated"
 )
 
 // preAllocatedBytesPerSignal is an estimate of how many bytes each signal needs.
