@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
-	"go.einride.tech/can"
-	"go.einride.tech/can/pkg/descriptor"
-	examplecan "go.einride.tech/can/testdata/gen/go/example"
+	can "github.com/DanaDynamics/can-go"
+	"github.com/DanaDynamics/can-go/pkg/descriptor"
+	examplecan "github.com/DanaDynamics/can-go/testdata/gen/go/example"
 	"gotest.tools/v3/assert"
 )
 

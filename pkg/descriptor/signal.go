@@ -4,7 +4,7 @@ import (
 	"math"
 	"unsafe"
 
-	"go.einride.tech/can"
+	can "github.com/DanaDynamics/can-go"
 )
 
 // Signal describes a CAN signal.

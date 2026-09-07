@@ -1,4 +1,4 @@
-module go.einride.tech/can/.sage
+module github.com/DanaDynamics/can-go/.sage
 
 go 1.22.12
 

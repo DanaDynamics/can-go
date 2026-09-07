@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"net"
 
-	"go.einride.tech/can"
+	can "github.com/DanaDynamics/can-go"
 )
 
 type TransmitterOption func(*transmitterOpts)

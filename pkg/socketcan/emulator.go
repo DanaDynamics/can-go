@@ -10,7 +10,7 @@ import (
 	"sync"
 	"time"
 
-	"go.einride.tech/can"
+	can "github.com/DanaDynamics/can-go"
 	"golang.org/x/sync/errgroup"
 )
 
